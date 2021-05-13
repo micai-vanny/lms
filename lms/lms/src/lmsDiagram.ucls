@@ -1,0 +1,756 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.4" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="co.banya.lms.professor.vo.ProfessorVO" project="lms" 
+    file="/lms/src/co/banya/lms/professor/vo/ProfessorVO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="405" width="175" x="8093" y="439"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="co.banya.lms.professor.menu.ProfessorMenu" project="lms" 
+    file="/lms/src/co/banya/lms/professor/menu/ProfessorMenu.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="207" width="153" x="8145" y="48"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="co.banya.lms.student.menu.StudentMenu" project="lms" 
+    file="/lms/src/co/banya/lms/student/menu/StudentMenu.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="189" width="142" x="9178" y="48"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="4" language="java" name="co.banya.lms.adminmenu" project="lms" file="/lms/src/co/banya/lms/adminmenu" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="6554" y="498"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <interface id="5" language="java" name="co.banya.lms.course.service.CourseService" project="lms" 
+    file="/lms/src/co/banya/lms/course/service/CourseService.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="207" width="203" x="10042" y="439"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="6" language="java" name="co.banya.lms.enrolment.serviceImpl.EnrolmentServiceImpl" project="lms" 
+    file="/lms/src/co/banya/lms/enrolment/serviceImpl/EnrolmentServiceImpl.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="243" width="240" x="7435" y="48"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="7" language="java" name="co.banya.lms.depart.menu" project="lms" file="/lms/src/co/banya/lms/depart/menu" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="6435" y="289"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="8" language="java" name="co.banya.lms.enrolment.vo.EnrolmentVO" project="lms" 
+    file="/lms/src/co/banya/lms/enrolment/vo/EnrolmentVO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="531" width="175" x="7175" y="439"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="co.banya.lms.student.vo.StudentVO" project="lms" 
+    file="/lms/src/co/banya/lms/student/vo/StudentVO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="963" width="175" x="9360" y="439"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="10" language="java" name="co.banya.lms.courserg.vo" project="lms" 
+    file="/lms/src/co/banya/lms/courserg/vo" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="6650" y="76"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="11" language="java" name="co.banya.lms.course.vo.CourseVO" project="lms" 
+    file="/lms/src/co/banya/lms/course/vo/CourseVO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="585" width="175" x="10285" y="439"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="co.banya.lms.enrolment.menu.EnrolmentMenu" project="lms" 
+    file="/lms/src/co/banya/lms/enrolment/menu/EnrolmentMenu.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="207" width="152" x="7243" y="48"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="co.banya.lms.adminmenu.AdminMenu" project="lms" 
+    file="/lms/src/co/banya/lms/adminmenu/AdminMenu.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="118" x="8338" y="48"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" name="co.banya.lms.common.Entry" project="lms" 
+    file="/lms/src/co/banya/lms/common/Entry.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="7535" y="682"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="15" language="java" name="co.banya.lms.courserg.vo.CourseRgVO" project="lms" 
+    file="/lms/src/co/banya/lms/courserg/vo/CourseRgVO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="207" width="145" x="9857" y="439"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="16" language="java" name="co.banya.lms.depart.serviceImpl.DepartServiceImpl" project="lms" 
+    file="/lms/src/co/banya/lms/depart/serviceImpl/DepartServiceImpl.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="243" width="194" x="7911" y="48"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="17" language="java" name="co.banya.lms.courserg.service" project="lms" 
+    file="/lms/src/co/banya/lms/courserg/service" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="6449" y="76"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <interface id="18" language="java" name="co.banya.lms.depart.service.DepartService" project="lms" 
+    file="/lms/src/co/banya/lms/depart/service/DepartService.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="194" x="7670" y="439"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="19" language="java" name="co.banya.lms.courserg.service.CourseRgService" project="lms" 
+    file="/lms/src/co/banya/lms/courserg/service/CourseRgService.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="242" x="9575" y="439"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="20" language="java" name="co.banya.lms.professor.service.ProfessorService" project="lms" 
+    file="/lms/src/co/banya/lms/professor/service/ProfessorService.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="207" width="243" x="8308" y="439"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <package id="21" language="java" name="co.banya.lms.enrolment.menu" project="lms" 
+    file="/lms/src/co/banya/lms/enrolment/menu" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="6476" y="364"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="22" language="java" name="co.banya.lms.depart.menu.DepartMenu" project="lms" 
+    file="/lms/src/co/banya/lms/depart/menu/DepartMenu.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="207" width="156" x="7715" y="48"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="23" language="java" name="co.banya.lms.main.MainApp" project="lms" 
+    file="/lms/src/co/banya/lms/main/MainApp.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="7666" y="683"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="24" language="java" name="co.banya.lms.common" project="lms" file="/lms/src/co/banya/lms/common" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="6724" y="498"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="25" language="java" name="co.banya.lms.depart.serviceImpl" project="lms" 
+    file="/lms/src/co/banya/lms/depart/serviceImpl" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="6873" y="290"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="26" language="java" name="co.banya.lms.student.serviceImpl.StudentServiceImpl" project="lms" 
+    file="/lms/src/co/banya/lms/student/serviceImpl/StudentServiceImpl.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="351" width="214" x="8924" y="48"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="27" language="java" name="co.banya.lms.courserg.serviceImpl.CourseRgServiceImpl" project="lms" 
+    file="/lms/src/co/banya/lms/courserg/serviceImpl/CourseRgServiceImpl.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="243" width="242" x="9757" y="48"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="28" language="java" name="co.banya.lms.enrolment.vo" project="lms" 
+    file="/lms/src/co/banya/lms/enrolment/vo" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="6896" y="364"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="29" language="java" name="co.banya.lms.professor.serviceImpl" project="lms" 
+    file="/lms/src/co/banya/lms/professor/serviceImpl" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="6464" y="153"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="30" language="java" name="co.banya.lms.student.menu" project="lms" 
+    file="/lms/src/co/banya/lms/student/menu" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="6226" y="496"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="31" language="java" name="co.banya.lms.depart.service" project="lms" 
+    file="/lms/src/co/banya/lms/depart/service" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="6656" y="290"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <interface id="32" language="java" name="co.banya.lms.common.ScInputOutput" project="lms" 
+    file="/lms/src/co/banya/lms/common/ScInputOutput.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="106" x="8591" y="439"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <package id="33" language="java" name="co.banya.lms.professor.vo" project="lms" 
+    file="/lms/src/co/banya/lms/professor/vo" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="6681" y="155"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="34" language="java" name="co.banya.lms.student.service" project="lms" 
+    file="/lms/src/co/banya/lms/student/service" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="6872" y="436"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <interface id="35" language="java" name="co.banya.lms.student.service.StudentService" project="lms" 
+    file="/lms/src/co/banya/lms/student/service/StudentService.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="261" width="214" x="9106" y="439"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <package id="36" language="java" name="co.banya.lms.student.menuforadmin" project="lms" 
+    file="/lms/src/co/banya/lms/student/menuforadmin" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="6251" y="433"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="37" language="java" name="co.banya.lms.depart.vo" project="lms" file="/lms/src/co/banya/lms/depart/vo" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="6220" y="293"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="38" language="java" name="co.banya.lms.depart.vo.DepartVO" project="lms" 
+    file="/lms/src/co/banya/lms/depart/vo/DepartVO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="207" width="149" x="7904" y="439"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="39" language="java" name="co.banya.lms.courserg.menu.CourseRgMenu" project="lms" 
+    file="/lms/src/co/banya/lms/courserg/menu/CourseRgMenu.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="171" width="153" x="9564" y="48"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="40" language="java" name="co.banya.lms.enrolment.serviceImpl" project="lms" 
+    file="/lms/src/co/banya/lms/enrolment/serviceImpl" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="6251" y="363"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="41" language="java" name="co.banya.lms.course.vo" project="lms" file="/lms/src/co/banya/lms/course/vo" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="6881" y="217"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="42" language="java" name="co.banya.lms.login" project="lms" file="/lms/src/co/banya/lms/login" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="6393" y="498"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="43" language="java" name="co.banya.lms.login.MainLogin" project="lms" 
+    file="/lms/src/co/banya/lms/login/MainLogin.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="105" x="8779" y="48"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="44" language="java" name="co.banya.lms.course.service" project="lms" 
+    file="/lms/src/co/banya/lms/course/service" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="6444" y="218"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="45" language="java" name="co.banya.lms.main" project="lms" file="/lms/src/co/banya/lms/main" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="6877" y="497"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="46" language="java" name="co.banya.lms.courserg.serviceImpl" project="lms" 
+    file="/lms/src/co/banya/lms/courserg/serviceImpl" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="6865" y="77"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="47" language="java" name="co.banya.lms.professor.menu" project="lms" 
+    file="/lms/src/co/banya/lms/professor/menu" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="6240" y="151"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="48" language="java" name="co.banya.lms.course.menu" project="lms" 
+    file="/lms/src/co/banya/lms/course/menu" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="6232" y="217"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="49" language="java" name="co.banya.lms.course.serviceImpl" project="lms" 
+    file="/lms/src/co/banya/lms/course/serviceImpl" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="6671" y="217"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="50" language="java" name="co.banya.lms.course.serviceImpl.CourseServiceImpl" project="lms" 
+    file="/lms/src/co/banya/lms/course/serviceImpl/CourseServiceImpl.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="297" width="203" x="10219" y="48"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="51" language="java" name="co.banya.lms.enrolment.service.EnrolmentService" project="lms" 
+    file="/lms/src/co/banya/lms/enrolment/service/EnrolmentService.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="240" x="7390" y="439"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="52" language="java" name="co.banya.lms.common.DataSource" project="lms" 
+    file="/lms/src/co/banya/lms/common/DataSource.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="225" width="160" x="8896" y="439"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="53" language="java" name="co.banya.lms.professor.serviceImpl.ProfessorServiceImpl" project="lms" 
+    file="/lms/src/co/banya/lms/professor/serviceImpl/ProfessorServiceImpl.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="297" width="243" x="8496" y="48"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="54" language="java" name="co.banya.lms.student.serviceImpl" project="lms" 
+    file="/lms/src/co/banya/lms/student/serviceImpl" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="6657" y="435"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="55" language="java" name="co.banya.lms.courserg.menu" project="lms" 
+    file="/lms/src/co/banya/lms/courserg/menu" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="6241" y="75"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="56" language="java" name="co.banya.lms.course.menu.CourseMenu" project="lms" 
+    file="/lms/src/co/banya/lms/course/menu/CourseMenu.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="207" width="140" x="10039" y="48"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="57" language="java" name="co.banya.lms.common.LoginIdSave" project="lms" 
+    file="/lms/src/co/banya/lms/common/LoginIdSave.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="7143" y="98"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="58" language="java" name="co.banya.lms.enrolment.service" project="lms" 
+    file="/lms/src/co/banya/lms/enrolment/service" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="6692" y="364"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="59" language="java" name="co.banya.lms.professor.service" project="lms" 
+    file="/lms/src/co/banya/lms/professor/service" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="6882" y="155"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="60" language="java" name="co.banya.lms.student.vo" project="lms" file="/lms/src/co/banya/lms/student/vo" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="6458" y="434"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="61" language="java" name="co.banya.lms.student.menuforadmin.StuMenu" project="lms" 
+    file="/lms/src/co/banya/lms/student/menuforadmin/StuMenu.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="207" width="164" x="9360" y="48"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="62" language="java" name="co.banya.lms.common.LoginService" project="lms" 
+    file="/lms/src/co/banya/lms/common/LoginService.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="81" width="119" x="8737" y="439"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <association id="63">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="64" name="ps"/>      
+      <multiplicity id="65" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="20" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="66">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="51"/>  
+  </realization>  
+  <association id="67">    
+    <end type="SOURCE" refId="26" navigable="false">      
+      <attribute id="68" name="dataSource"/>      
+      <multiplicity id="69" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="52" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="70">    
+    <end type="SOURCE" refId="52" navigable="false">      
+      <attribute id="71" name="dataSource"/>      
+      <multiplicity id="72" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="52" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="73">    
+    <end type="SOURCE" refId="22" navigable="false">      
+      <attribute id="74" name="ds"/>      
+      <multiplicity id="75" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="18" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="76">    
+    <end type="SOURCE" refId="56"/>    
+    <end type="TARGET" refId="32"/>  
+  </realization>  
+  <association id="77">    
+    <end type="SOURCE" refId="61" navigable="false">      
+      <attribute id="78" name="ss"/>      
+      <multiplicity id="79" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="35" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="80">    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="32"/>  
+  </realization>  
+  <realization id="81">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="32"/>  
+  </realization>  
+  <realization id="82">    
+    <end type="SOURCE" refId="53"/>    
+    <end type="TARGET" refId="62"/>  
+  </realization>  
+  <association id="83">    
+    <end type="SOURCE" refId="12" navigable="false">      
+      <attribute id="84" name="vo"/>      
+      <multiplicity id="85" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="86">    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="18"/>  
+  </realization>  
+  <realization id="87">    
+    <end type="SOURCE" refId="26"/>    
+    <end type="TARGET" refId="35"/>  
+  </realization>  
+  <realization id="88">    
+    <end type="SOURCE" refId="43"/>    
+    <end type="TARGET" refId="32"/>  
+  </realization>  
+  <association id="89">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="90" name="ss"/>      
+      <multiplicity id="91" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="35" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="92">    
+    <end type="SOURCE" refId="27" navigable="false">      
+      <attribute id="93" name="dataSource"/>      
+      <multiplicity id="94" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="52" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="95">    
+    <end type="SOURCE" refId="61"/>    
+    <end type="TARGET" refId="32"/>  
+  </realization>  
+  <realization id="96">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="32"/>  
+  </realization>  
+  <association id="97">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="98" name="dataSource"/>      
+      <multiplicity id="99" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="52" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="100">    
+    <end type="SOURCE" refId="39" navigable="false">      
+      <attribute id="101" name="vo"/>      
+      <multiplicity id="102" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="15" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="103">    
+    <end type="SOURCE" refId="53"/>    
+    <end type="TARGET" refId="20"/>  
+  </realization>  
+  <association id="104">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="105" name="vo"/>      
+      <multiplicity id="106" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="107">    
+    <end type="SOURCE" refId="50"/>    
+    <end type="TARGET" refId="5"/>  
+  </realization>  
+  <realization id="108">    
+    <end type="SOURCE" refId="27"/>    
+    <end type="TARGET" refId="19"/>  
+  </realization>  
+  <association id="109">    
+    <end type="SOURCE" refId="43" navigable="false">      
+      <attribute id="110" name="ss"/>      
+      <multiplicity id="111" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="35" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="112">    
+    <end type="SOURCE" refId="27" navigable="false">      
+      <attribute id="113" name="vo"/>      
+      <multiplicity id="114" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="15" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="115">    
+    <end type="SOURCE" refId="50" navigable="false">      
+      <attribute id="116" name="vo"/>      
+      <multiplicity id="117" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="118">    
+    <end type="SOURCE" refId="26" navigable="false">      
+      <attribute id="119" name="vo"/>      
+      <multiplicity id="120" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="121">    
+    <end type="SOURCE" refId="56" navigable="false">      
+      <attribute id="122" name="vo"/>      
+      <multiplicity id="123" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="124">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="125" name="vo"/>      
+      <multiplicity id="126" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="127">    
+    <end type="SOURCE" refId="16" navigable="false">      
+      <attribute id="128" name="vo"/>      
+      <multiplicity id="129" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="38" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="130">    
+    <end type="SOURCE" refId="22" navigable="false">      
+      <attribute id="131" name="vo"/>      
+      <multiplicity id="132" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="38" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="133">    
+    <end type="SOURCE" refId="53" navigable="false">      
+      <attribute id="134" name="dataSource"/>      
+      <multiplicity id="135" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="52" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="136">    
+    <end type="SOURCE" refId="16" navigable="false">      
+      <attribute id="137" name="dataSource"/>      
+      <multiplicity id="138" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="52" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="139">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="32"/>  
+  </realization>  
+  <realization id="140">    
+    <end type="SOURCE" refId="53"/>    
+    <end type="TARGET" refId="32"/>  
+  </realization>  
+  <association id="141">    
+    <end type="SOURCE" refId="53" navigable="false">      
+      <attribute id="142" name="vo"/>      
+      <multiplicity id="143" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="144">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="145" name="vo"/>      
+      <multiplicity id="146" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="147">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="32"/>  
+  </realization>  
+  <association id="148">    
+    <end type="SOURCE" refId="61" navigable="false">      
+      <attribute id="149" name="vo"/>      
+      <multiplicity id="150" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="151">    
+    <end type="SOURCE" refId="39" navigable="false">      
+      <attribute id="152" name="crs"/>      
+      <multiplicity id="153" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="19" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="154">    
+    <end type="SOURCE" refId="26"/>    
+    <end type="TARGET" refId="62"/>  
+  </realization>  
+  <association id="155">    
+    <end type="SOURCE" refId="56" navigable="false">      
+      <attribute id="156" name="cs"/>      
+      <multiplicity id="157" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="158">    
+    <end type="SOURCE" refId="12" navigable="false">      
+      <attribute id="159" name="es"/>      
+      <multiplicity id="160" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="51" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="161">    
+    <end type="SOURCE" refId="39"/>    
+    <end type="TARGET" refId="32"/>  
+  </realization>  
+  <association id="162">    
+    <end type="SOURCE" refId="43" navigable="false">      
+      <attribute id="163" name="ps"/>      
+      <multiplicity id="164" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="20" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="165">    
+    <end type="SOURCE" refId="50" navigable="false">      
+      <attribute id="166" name="dataSource"/>      
+      <multiplicity id="167" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="52" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
